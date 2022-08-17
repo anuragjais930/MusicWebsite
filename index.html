@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - The Sound You feel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" , alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Support</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <div class="songList">
+            <h2> Listening is everything</h2>
+            <div class="songItemContainer">
+                <div class="songitem">
+                    <img src="covers/1.jpg" alt="1">
+                    <span class="songName">Bapu Tera Hai Bada Proud Tere Te_</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:30 <i id="0" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+                
+                <div class="songitem">
+                    <img src="covers/2.jpg" alt="1">
+                    <span class="songName">Let Me Down Slowly x Main Dhoondne</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:03 <i id="1" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/3.jpg" alt="1">
+                    <span class="songName">Mast Nazron Se</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:26 <i id="2" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/4.jpg" alt="1">
+                    <span class="songName">Mehbooba Main </span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:56 <i id="3" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/5.jpg" alt="1">
+                    <span class="songName">Naacho Naacho </span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:50 <i id="4" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/6.jpg" alt="1">
+                    <span class="songName">Sidhu Moose Wala Mashup</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">04:01 <i id="5" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+                <div class="songitem">
+                    <img src="covers/7.jpg" alt="1">
+                    <span class="songName">So High</span>
+                    <span class="songlistplay">
+                        <span class="timestamp">03:20 <i id="6" class=" fa-regular songItemPlay fa-circle-play"></i> </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+
+        <div class=" icons ">
+            <!-- fontawesome icons  -->
+            <i class="fa-3x fa-solid fa-backward-step" id="previous"></i>
+            <i class=" fa-3x fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Bapu Tera.mp3</span>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+    <script src="https://kit.fontawesome.com/0b1272f71f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
